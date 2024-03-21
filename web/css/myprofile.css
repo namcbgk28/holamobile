@@ -1,0 +1,251 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 4, 2023, 4:42:14 PM
+    Author     : Chaunam270203
+*/
+html{
+    overflow-x: hidden;
+    /* font-family: sans-serif; */
+}
+
+/*Form*/
+
+.form-info{
+    padding: 20px 80px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .75);
+    border-radius: 30px;
+}
+
+.form-info .text{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.field{
+    width: 100%;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.field .label {
+    font-size: 18px;
+    margin: 0 0 8px 0px;
+    display: block;
+    min-width: 30%;
+}
+
+.field .input{
+    height: 100%;
+    width: 50%;
+    padding: 6px 6px 6px 12px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid var(--main-color-1);
+    background-color: transparent;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+.field .edit{
+    cursor: pointer;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.field .edit:hover{
+    color: var(--main-color-2);
+    text-decoration: underline;
+    transition: .5s;
+}
+
+
+.field .input:focus{
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .75);
+    border: none;
+}
+
+.field:nth-child(2){
+    margin: 20px 0;
+}
+
+.field span>i{
+    position: absolute;
+    font-size: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 2%;
+}
+
+.forgot{
+    font-size: 16px;
+    text-decoration: none;
+    color: blue;
+}
+
+.forgot:hover{
+    text-decoration: underline;
+}
+
+.submit{
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #b30707;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .75);
+}
+
+.submit:hover{
+    background-color: var(--main-color-2);
+}
+
+.sign{
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.sign a{
+    text-decoration: none;
+    color: blue;
+}
+
+.sign a:hover{
+    text-decoration: underline;
+}
+
+/*Content*/
+
+#app{
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 20px 0 50px;
+    z-index: 1;
+}
+
+.container-user{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1220px;
+    /* position: relative; */
+}
+
+.user-info-left{
+
+}
+
+.info-top{
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    padding: 10px 16px 16px;
+    border-bottom: 1px solid #968c92;
+}
+
+.icon-user{
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.info-username{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.info-name>a{
+    color: #968c92;
+    text-decoration: none;
+}
+
+.info-bot{
+    margin-top: 20px;
+
+}
+
+.info-bot .info-task{
+    list-style: none;
+    margin-bottom: 16px;
+    padding: 4px;
+}
+
+.info-bot .info-task a{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+.info-bot .info-task a:hover{
+    color: red;
+}
+
+.info-task a>div{
+    min-width: 30px;
+}
+
+.info-task i{
+    font-size: 20px;
+}
+
+.user-info-right{
+    background-color: #fff;
+    margin-left: 20px;
+    width: 60%;
+}
+
+
+
+.order{
+    border: dashed  1px black;
+    padding: 8px 20px;
+    margin-top: 20px;
+}
+
+.order td {
+    padding-right: 20px;
+    padding-bottom: 8px;
+    line-height: 1.6;
+}
+
+.order-title {
+    width: 140px;
+    font-weight: 600;
+}
+
+.view-detail{
+    display: flex;
+    justify-content: right;
+    
+}
+
+.view-detail a{
+    color: #b30707;
+    transition: .5s;;
+}
+
+.view-detail a:hover{
+    color: var(--main-color-2);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.order-detail{
+    margin-top: 80px;
+    margin-left: 20px;
+    transition: .5s;
+    padding: 20px 12px;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.1), 0 2px 6px 2px rgba(60,64,67,.15);
+    border-radius: 8px;
+}

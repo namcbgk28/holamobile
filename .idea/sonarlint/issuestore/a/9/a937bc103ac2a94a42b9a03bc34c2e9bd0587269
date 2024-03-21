@@ -1,0 +1,31 @@
+
+t
+java:S1192Â"]Define a constant instead of duplicating this literal "SELECT COUNT(*) FROM [USER]
+" 3 times.(Ï¥ûú
+f
+java:S1192~"KDefine a constant instead of duplicating this literal "numberPage" 3 times.(Òò¹½üÿÿÿÿ
+]
+java:S1192€"FDefine a constant instead of duplicating this literal "start" 3 times.(ñºèş
+k	java:S117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î‡Ù‘ıÿÿÿÿ
+l	java:S117™"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î‡Ù‘ıÿÿÿÿ
+l	java:S117É"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î‡Ù‘ıÿÿÿÿ
+
+java:S1149á"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(şğ‹…ûÿÿÿÿ
+|
+java:S1149í"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Âæ¡
+H
+java:S11350"2Complete the task associated to this TODO comment.(¢§‰
+i
+java:S3776G"SRefactor this method to reduce its Cognitive Complexity from 110 to the 15 allowed.(÷¤‹ú
+Q
+java:S1854Q"6Remove this useless assignment to local variable "cd".(ıÔ¡¬ÿÿÿÿÿ
+B
+java:S1481Q"'Remove this unused "cd" local variable.(ıÔ¡¬ÿÿÿÿÿ
+I
+java:S6126£"2Replace this String concatenation with Text block.(ÃÔâ
+N
+java:S6126†"2Replace this String concatenation with Text block.(Õ«èßşÿÿÿÿ
+I
+java:S6126ö"2Replace this String concatenation with Text block.(ÓÉÌè
+İ
+java:S6541G"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 276 to 64, Complexity from 24 to 14, Nesting Level from 4 to 2, Number of Variables from 86 to 6.(÷¤‹ú

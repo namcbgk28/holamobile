@@ -1,0 +1,60 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Nov 1, 2023, 3:17:27 PM
+    Author     : Chaunam270203
+*/
+
+/* Bar Graph Horizontal */
+
+.bar-graph-horizontal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.bar-graph-horizontal > div {
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.bar-graph-horizontal .year {
+    margin-top: 18px;
+    min-width: 100px;
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+.bar-graph-horizontal .bar {
+    border-radius: 3px;
+    height: 55px;
+    /*float: left;*/
+    /*overflow: hidden;*/
+    display: flex;
+    position: relative;
+    width: calc((1% * var(--per))*2);
+}
+
+
+.bar-graph-one .bar-one{
+    width: 100%;
+    display: flex;
+}
+
+.bar-graph-one .bar::after {
+    color: #fff;
+    content: attr(data-percentage);
+    font-weight: 600;
+    position: absolute;
+    right: 16px;
+    top: 17px;
+    /*width: calc((1% * var(--per))*2);*/
+}
+
+.bar-graph-one .bar-one .bar {
+    background-color: #4444b3;
+}
+
+

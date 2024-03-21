@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/java" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../drive-download-20230819T141330Z-001/Tools-PRJ301/lib/jakarta.servlet.jsp.jstl-2.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../drive-download-20230819T141330Z-001/Tools-PRJ301/lib/jakarta.servlet.jsp.jstl-api-2.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../drive-download-20230819T141330Z-001/Tools-PRJ301/lib/sqljdbc42.jar!/" />
+          <root url="file://$MODULE_DIR$/.." />
+          <root url="file://$MODULE_DIR$/.." />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.." />
+          <root url="file://$MODULE_DIR$/../Authentication/src/java" />
+          <root url="file://$MODULE_DIR$/../CRUD_Authenication/src/java" />
+          <root url="file://$MODULE_DIR$/../CRUD_Filter/src/java" />
+          <root url="file://$MODULE_DIR$/../ChangeMoney/src/java" />
+          <root url="file://$MODULE_DIR$/../CookieDemo/src/java" />
+          <root url="file://$MODULE_DIR$/../FilterDemo/src/java" />
+          <root url="file://$MODULE_DIR$/../HolaMobile/src/java" />
+          <root url="file://$MODULE_DIR$/src/java" />
+          <root url="file://$MODULE_DIR$/test" />
+          <root url="file://$MODULE_DIR$/../HomeBasic/src/java" />
+          <root url="file://$MODULE_DIR$/../JDPC_Demo/src/java" />
+          <root url="file://$MODULE_DIR$/../LoginSession/src/java" />
+          <root url="file://$MODULE_DIR$/../ModelSE1760/src" />
+          <root url="file://$MODULE_DIR$/../Model/src/main/java" />
+          <root url="file://$MODULE_DIR$/../PRJ301PROJECT-main/src/java" />
+          <root url="file://$MODULE_DIR$/../Paging1/src/java" />
+          <root url="file://$MODULE_DIR$/../Paging/src/java" />
+          <root url="file://$MODULE_DIR$/../Relation_1_n/src/java" />
+          <root url="file://$MODULE_DIR$/../SE1760/src/java" />
+          <root url="file://$MODULE_DIR$/../SE1760_A/SE1760/src/java" />
+          <root url="file://$MODULE_DIR$/../SE1760_MVC/src/java" />
+          <root url="file://$MODULE_DIR$/../SE1760_Temp/src/java" />
+          <root url="file://$MODULE_DIR$/../SearchDemo/src/java" />
+          <root url="file://$MODULE_DIR$/../SessionDemo/src/java" />
+          <root url="file://$MODULE_DIR$/../Test_21_08/src/java" />
+          <root url="file://$MODULE_DIR$/../Test_22_08/src/java" />
+          <root url="file://$MODULE_DIR$/../Test_24_08/src/java" />
+          <root url="file://$MODULE_DIR$/../TraTieShop/src/java" />
+          <root url="file://$MODULE_DIR$/../baitaptrenlop/src/java" />
+          <root url="file://$MODULE_DIR$/../firstDemo/src/java" />
+          <root url="file://$MODULE_DIR$/../se1760_demo_web/src/java" />
+          <root url="file://$MODULE_DIR$/../test/src/main/java" />
+          <root url="file://$MODULE_DIR$/../test_19_08/src/java" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/.." recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/.." recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="986a8417-6b1b-4c9a-8fa7-c72bb3899ab1" />
+  </component>
+</module>

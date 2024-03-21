@@ -1,0 +1,230 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 8, 2023, 7:50:36 PM
+    Author     : Chaunam270203
+*/
+html{
+    overflow-x: hidden;
+}
+
+.container {
+    background-color: #f9f9f9;
+    padding: 15px 30px;
+    height: 100%;
+}
+
+/*Bredcrumb*/
+.breadcrumb {
+    margin-bottom: 20px;
+}
+
+.breadcrumb .menu-item {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.breadcrumb .menu-item:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+/*Show product details*/
+.container-detail-product {
+    display: flex;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.detail-product-image {
+    display: flex;
+    flex-direction: column;
+    width: calc((100%/12)*5);
+}
+
+.product-image-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 56%;
+}
+
+.product-image-main img {
+    width: 100%;
+    
+}
+
+.product-image-sub {
+    display: flex;
+    margin-top: 20px;
+}
+
+.product-image-sub img {
+    width: calc(100%/4);
+    padding: 2px;
+}
+
+.detail-product-info {
+    width: calc((100%/12)*7);
+    padding-left: 12px;
+}
+
+.product-name {
+    font-family: sans-serif;
+    border-bottom: 1px solid #111;
+    padding-bottom: 8px;
+    height: 80px;
+}
+
+.rating {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.rating .stars {
+    color: #ffbe00;
+    margin-right: 40px;
+}
+
+.product-description {
+    margin-top: 20px;
+    line-height: 1.4;
+}
+
+.product-detail-price {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 15px 20px;
+    display: flex;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+.old-price {
+    color: #929292;
+    margin-right: 10px;
+    line-height: 19px;
+    text-decoration: line-through;
+    font-size: 20px;
+}
+
+.new-price {
+    color: #d0011b;
+    font-size: 30px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.discount{
+    background-color: #d0011b;
+    color: #fff;
+    padding: 4px;
+    font-weight: 600;
+}
+
+.some-info{
+    font-size: 16px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.some-info .col-name{
+    padding-bottom: 32px;
+    width: 190px;
+    opacity: 0.6;
+}
+
+.some-info .col-info{
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+.counter{
+    display: flex;
+}
+
+.counter .quantity-button{
+    background-color: #fff;
+    border: 1px solid #111;
+    padding: 8px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    border:1px solid #bbb6b6;
+}
+
+.minus{
+    border-right: 1px solid black;
+}
+
+
+.counter .quantity-input{
+    width: 80px;
+    padding: 4px 8px;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    border:1px solid #bbb6b6;
+    margin: 0 0.5px;
+}
+
+.add-cart{
+    background-color: #fbebed;
+    padding: 12px 10px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #dc4054;
+    color: #dc4054;
+    font-weight: 500;
+    cursor: pointer;
+    height: 44px;
+}
+
+.add-cart:hover{
+    background-color: rgb(248, 238, 240);
+}
+
+.buy-now{
+    background-color: #b30707;
+    padding: 12px 55px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    height: 44px;
+}
+
+.buy-now:hover{
+    background-color: var(--main-color-2);
+}
+
+/*Show same product*/
+.same-product{
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-same-product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: space-evenly;
+}

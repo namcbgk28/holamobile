@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color-1:#01032b;
+    --main-color-2:#f80505;
+    --main-font-family:Archivo SemiExpanded,sans-serif;
+}

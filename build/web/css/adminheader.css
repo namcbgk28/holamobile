@@ -1,0 +1,251 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Sep 25, 2023, 10:59:34 PM
+    Author     : Chaunam270203
+*/
+.header {
+    background-color: var(--main-color-1);
+    height: 80px;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+}
+
+#header-section {
+    height: 80px;
+    min-width: 1250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+#left-section {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    height: 80px;
+}
+
+.header-logo {
+    width: 30%;
+    position: relative;
+}
+
+.header-logo img {
+    width: 90%;
+    height: auto;
+}
+
+.header-logo::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 4px;
+    height: 70%;
+    background-color: var(--main-color-2);
+    right: 0;
+    top: 10px;
+    margin-left: 4px;
+}
+
+.header-name {
+    height: 100%;
+}
+
+.name-shop {
+    color: var(--main-color-2);
+    margin: 0 12px;
+    font-family: Anton;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.slogan {
+    color: white;
+    font-size: 18px;
+    margin-top: 0;
+    font-family: Ephesis;
+    text-align: center;
+}
+
+#right-section{
+    color: var(--main-color-2);
+    font-family: Anton;
+    /*margin: 0 26%;*/
+    font-size: 20px;
+}
+
+#hello{
+    color: #fff;
+    margin: 0 5%;
+    font-family: sans-serif;
+}
+
+#hello a{
+    color: #fff;
+}
+
+.user-task {
+    margin: 0 8px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.user-task>a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    height: 100%;
+    padding: 8px;
+}
+
+#user-drop-bar{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    position: absolute;
+    z-index: 3;
+    top: 30px;
+    right: 6px;
+    height: 0;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.user-info {
+    position: relative;
+    font-size: 20px;
+}
+.user-info:hover #user-drop-bar{
+    height: 160px;
+    transition: 0.3s;
+}
+
+.user-drop-bar-task{
+    display: flex;
+    align-items: center;
+    background: #e2e2e2;
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    width: 170px;
+    padding: 10px 12px;
+    font-size: 15px;
+    border-bottom: 1px solid #fff;
+}
+.user-drop-bar-task:hover{
+    background-color: white;
+    color: #0d0bcf;
+}
+/*End - Header*/
+
+/*Navbar*/
+
+/*#navbar{
+    width: 250px;
+    height: 100%;
+}
+
+.list-option {
+    width: 250px;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.list-option .option {
+    list-style: none;
+    position: relative;
+    padding: 8px 0;
+}
+
+.list-option .option>a {
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white
+}
+
+.option::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0%;
+    height: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 1px;
+    background: white;
+    transition: all .4s ease-in-out 0s;
+}
+
+.option:hover::after {
+    width: 100%;
+}
+
+.option:hover .sub-nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.option a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.option a img {
+    margin-right: 4px;
+}
+
+.sub-nav {
+    position: absolute;
+    width: 400px;
+    list-style: none;
+    padding: 16px;
+    border: 1px solid black;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .75);
+    display: none;
+    background-color: #fff;
+    top: 40px;
+}
+
+.sub-nav>.title{
+    min-width: 100%;
+    border: none;
+    font-weight: bold;
+    color: var(--main-color-1);
+}
+
+.sub-nav>.title:hover{
+    opacity: 1;
+}
+
+.sub-nav-item {
+    min-width: 45%;
+    border-bottom: 1px solid #e6e7f4;
+    margin-right:  4px;
+    padding: 12px 0 2px 0;
+}
+
+.sub-nav-item:hover{
+    opacity: 0.6;
+}
+
+.sub-nav-item a{
+    text-decoration: none;
+    color: #898989;
+    width: 100%;
+    display: block;
+}*/

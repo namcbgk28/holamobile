@@ -1,0 +1,32 @@
+
+L
+java:S3740“"/Provide the parametrized type for this generic.(®âÒJ8ûÁì¡Ô1
+L
+java:S3740"/Provide the parametrized type for this generic.(®âÒJ8üÁì¡Ô1
+~
+java:S1192j"\Define a constant instead of duplicating this literal "                    </div>
+" 4 times.(““ÅÆúÿÿÿÿ8şÁì¡Ô1
+j
+java:S1192G"HDefine a constant instead of duplicating this literal "account" 5 times.(›¸ËÆÿÿÿÿÿ8ÿÁì¡Ô1
+m	java:S117T"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á¸È8€Âì¡Ô1
+s	java:S117‘"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø ªôúÿÿÿÿ8€Âì¡Ô1
+s	java:S117´"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø ªôúÿÿÿÿ8€Âì¡Ô1
+n	java:S117¶"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á¸È8Âì¡Ô1
+u
+java:S11047"XMake checkBoxList a static final constant or non-public and provide accessors if needed.(úÌ³8‚Âì¡Ô1
+O
+java:S1135*"2Complete the task associated to this TODO comment.(¢§‰8¢Âì¡Ô1
+G
+java:S11977"*Move the array designators [] to the type.(úÌ³8§Âì¡Ô1
+o
+java:S3776C"RRefactor this method to reduce its Cognitive Complexity from 39 to the 15 allowed.(÷¤‹ú8ªÂì¡Ô1
+G	java:S106U"+Replace this use of System.out by a logger.(Ó¶Ñ¥8´Âì¡Ô1
+L	java:S106W"+Replace this use of System.out by a logger.(‰’Şúÿÿÿÿ8·Âì¡Ô1
+]	java:S125b"<This block of commented-out lines of code should be removed.(–ÙŠ…øÿÿÿÿ8ºÂì¡Ô1
+]	java:S125d"<This block of commented-out lines of code should be removed.(ÌŸşÿÿÿÿ8ºÂì¡Ô1
+T
+java:S6126f"2Replace this String concatenation with Text block.(†ÒåÜÿÿÿÿÿ8ºÂì¡Ô1
+T
+java:S6126}"2Replace this String concatenation with Text block.(†ÒåÜÿÿÿÿÿ8ÆÂì¡Ô1
+Y	java:S125‹"<This block of commented-out lines of code should be removed.(Áµæã8ÆÂì¡Ô1
+M	java:S106µ"+Replace this use of System.out by a logger.(îÈÑøüÿÿÿÿ8ÖÂì¡Ô1

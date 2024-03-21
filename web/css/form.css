@@ -1,0 +1,190 @@
+/*Start - Header*/
+.header {
+    background-color: var(--main-color-1);
+    height: 80px;
+    width: 100%;
+}
+
+#header-section {
+    height: 80px;
+    min-width: 1250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+#left-section {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    height: 80px;
+}
+
+.header-logo {
+    width: 30%;
+    position: relative;
+}
+
+.header-logo img {
+    width: 90%;
+    height: auto;
+}
+
+.header-logo::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 4px;
+    height: 70%;
+    background-color: var(--main-color-2);
+    right: 0;
+    top: 10px;
+    margin-left: 4px;
+}
+
+.header-name {
+    height: 100%;
+}
+
+.name-shop {
+    color: var(--main-color-2);
+    margin: 0 12px;
+    font-family: Anton;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.slogan {
+    color: white;
+    font-size: 18px;
+    margin-top: 0;
+    font-family: Ephesis;
+    text-align: center;
+}
+
+#right-section{
+    color: var(--main-color-2);
+    font-family: Anton;
+    margin: 0 26%;
+    font-size: 20px;
+}
+
+/*End - Header*/
+
+/*Start-content*/
+.content{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 60px;
+}
+
+.banner{
+    width: 40%;
+}
+
+.banner img{
+    width: 82%;
+    text-align: center;
+}
+/*End-content*/
+
+/*Form*/
+.form-info{
+    padding: 20px 80px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .75);
+    border-radius: 30px;
+}
+
+.form-info .text{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.form-info .field{
+    width: 100%;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.field .label {
+    font-size: 18px;
+    margin: 0 0 8px 0px;
+    display: block;
+    min-width: 30%;
+}
+
+.field .input{
+    height: 100%;
+    width: 100%;
+    padding: 6px 6px 6px 12px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid var(--main-color-1);
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+.field .input:focus{
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .75);
+    border: none;
+}
+
+.field:nth-child(2){
+    margin: 20px 0;
+}
+
+.field span>i{
+    position: absolute;
+    font-size: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 2%;
+}
+
+.forgot{
+    font-size: 16px;
+    text-decoration: none;
+    color: blue;
+}
+
+.forgot:hover{
+    text-decoration: underline;
+}
+
+.submit{
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #b30707;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .75);
+}
+
+.submit:hover{
+    background-color: var(--main-color-2);
+}
+
+.sign{
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.sign a{
+    text-decoration: none;
+    color: blue;
+}
+
+.sign a:hover{
+    text-decoration: underline;
+}
